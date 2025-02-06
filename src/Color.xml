@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Color  -->
+<!--  Author: fate  -->
+<!--  DateCreated: 4/4/2023 7:45:00 PM  -->
+<GameData>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_ERQ_ZH_1</Type>
+			<Color>190,29,8,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_ERQ_ZH_2</Type>
+			<Color>135,99,27,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_ERQ_ZH_3</Type>
+			<Color>139,0,139,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_ERQ_ZH_4</Type>
+			<Color>255,255,0,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_ERQ_ZH_5</Type>
+			<Color>170,85,255,255</Color>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_ERQ_ZH</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_ERQ_ZH_2</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_ERQ_ZH_4</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_PLAYER_LEADER_ERQ_ZH_3</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_PLAYER_LEADER_ERQ_ZH_4</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_PLAYER_LEADER_ERQ_ZH_1</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_PLAYER_LEADER_ERQ_ZH_2</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_PLAYER_LEADER_ERQ_ZH_5</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_PLAYER_LEADER_ERQ_ZH_1</Alt3SecondaryColor>
+		</Row>
+	</PlayerColors>
+</GameData>

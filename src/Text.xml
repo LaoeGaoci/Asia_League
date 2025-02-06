@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text -->
+<!-- Author: LaoeGaoci -->
+<!-- DateCreated: 1/28/2025 -->
+<GameData>
+	<LocalizedText>
+		<!-- 文明文本 -->
+		<Row Tag="LOC_CIVILIZATION_ASIA_NAME" Language="zh_Hans_CN">
+			<Text>亚洲文明</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ASIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>亚洲</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_Asia_LOCATION" Language="zh_Hans_CN">
+			<Text>亚洲</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_Asia_SIZE" Language="zh_Hans_CN">
+			<Text>4400万平方公里（约占地球陆地面积的30%）</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_Asia_POPULATION" Language="zh_Hans_CN">
+			<Text>46 亿（2023年）</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_Asia_CAPITAL" Language="zh_Hans_CN">
+			<Text>北京</Text>
+		</Row>
+
+		<!-- 领袖文本 -->
+		<Row Tag="LOC_LEADER_ERQ_NAME" Language="zh_Hans_CN">
+			<Text>ERQ</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_ERQ" Language="zh_Hans_CN">
+			<Text>欢迎来到亚洲联盟，这里有着悠久的历史，多样性的文化和丰富的资源。利用您的智慧和领导力，与亚洲人民一起共创亚洲的荣耀。</Text>
+		</Row>
+
+		<!-- 文明能力 -->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ABILITY_1_NAME" Language="zh_Hans_CN">
+			<Text>天下为公，人民万岁</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ABILITY_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				藏富于民：每位 [ICON_Citizen] 公民提供+4 [ICON_GOLD] 金币加成。[NEWLINE]
+				民族共和：每条 [ICON_TradeRoute] 商路提供 +5[ICON_FOOD]粮食 +5 [ICON_GOLD] 金币和 +5 [ICON_FAITH] 信仰值。
+			</Text>
+		</Row>
+		<!-- 领袖能力 -->
+		<Row Tag="LOC_TRAIT_LEADER_ABILITY_NAME" Language="zh_Hans_CN">
+			<Text>天下大同</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ABILITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				建造世界奇观时+10% [ICON_PRODUCTION] 生产力，建造者单位可以加速奇观建造15%。[NEWLINE]
+				其他文明领袖对您初始满好感度，并对您保持友好关系。您的外交权重以和平外交为核心，倾向于与他人合作。
+			</Text>
+		</Row>
+
+		<!-- 建筑文本 -->
+		<Row Tag="LOC_DISTRICT_ASIAN_NATIONAL_ACADEMIC_CENTER_NAME" Language="zh_Hans_CN">
+			<Text>亚洲国立学术中心</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_ASIAN_NATIONAL_ACADEMIC_CENTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>由“书写”解锁，为相邻区域提供 [ICON_SCIENCE] 科学值以及大科学家点数。</Text>
+		</Row>
+		<Replace Tag="LOC_PEDIA_DISTRICT_PAGE_DISTRICT_ASIAN_NATIONAL_ACADEMIC_CENTER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>亚洲国立学术中心代表了亚洲各国追求教育与科技发展的努力。这些中心集教学与研究于一体，为推动人类科学进步发挥了重要作用。</Text>
+		</Replace>
+		
+		<Row Tag="LOC_DISTRICT_ASIAN_NATIONAL_CULTURAL_CENTER_NAME" Language="zh_Hans_CN">
+			<Text>亚洲国立文化中心</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_ASIAN_NATIONAL_CULTURAL_CENTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>由“戏剧与诗歌”解锁，为相邻区域提供 [ICON_CULTURE] 文化值以及大艺术家点数。</Text>
+		</Row>
+		<Replace Tag="LOC_PEDIA_DISTRICT_PAGE_DISTRICT_ASIAN_NATIONAL_CULTURAL_CENTER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>亚洲国立文化中心是文化保护和创新的重要基地，这些中心不仅保存了亚洲多样化的历史遗产，还推动了现代艺术和文化的蓬勃发展。</Text>
+		</Replace>
+		
+		<Row Tag="LOC_DISTRICT_ASIA_FINANCIAL_CENTER_NAME" Language="zh_Hans_CN">
+			<Text>亚洲金融中心</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_ASIA_FINANCIAL_CENTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>由“货币”解锁，为相邻区域提供 [ICON_GOLD] 金币以及大商人点数。</Text>
+		</Row>
+		<Replace Tag="LOC_PEDIA_DISTRICT_PAGE_DISTRICT_ASIA_FINANCIAL_CENTER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>亚洲金融中心是全球经济的核心节点。这些中心通过提供金融服务和支持区域经济增长，成为世界经济网络的重要枢纽。</Text>
+		</Replace>
+		
+		
+		<!-- 对话文本 -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ERQ_ANY" Language="zh_Hans_CN">
+			<Text>合作共赢，求同存异。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ERQ_ANY" Language="zh_Hans_CN">
+			<Text>抱歉，请联系相关部门</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_ERQ_ANY" Language="zh_Hans_CN">
+			<Text>欢迎来到亚洲，让我们共建共和盛世。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ERQ_ANY" Language="zh_Hans_CN">
+			<Text>你要破坏这宝贵的同盟！</Text>
+		</Row>
+
+		<!-- 公民名称本地化 -->
+		<Row Tag="LOC_CITIZEN_ASIA_1" Language="zh_Hans_CN">
+			<Text>李明博</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ASIA_2" Language="zh_Hans_CN">
+			<Text>金智秀</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ASIA_3" Language="zh_Hans_CN">
+			<Text>美智子</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ASIA_4" Language="zh_Hans_CN">
+			<Text>旭日干</Text>
+		</Row>
+		
+		<!-- 城市名称本地化 -->
+		<Row Tag="LOC_CITY_NAME_KUALA_LUMPUR" Language="zh_Hans_CN">
+			<Text>吉隆坡</Text>
+		</Row>
+		
+	</LocalizedText>
+</GameData>
