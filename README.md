@@ -23,3 +23,6 @@
 -  [设定区域的基础效果与相邻加成](./doc/DISTRICT/District_addition.md)。
 - 在代码中定义区域数据。
 
+### 4. [如何加入贴图](./doc/Icon/Icon.md)
+- 画集的定义与连接
+- 引用游戏原本贴图
