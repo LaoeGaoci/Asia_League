@@ -1,6 +1,6 @@
 # 亚洲联盟与领袖能力
 
-## 1. [亚洲联盟介绍](./doc/Civilization/Asia——Info.md)
+## 1. [亚洲联盟介绍](./doc/Civilization/Asia_Info.md)
 
 ---
 
