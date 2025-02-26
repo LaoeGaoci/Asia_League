@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Asia  -->
+<!--  Author: LaoeGaoci  -->
+<!--  DateCreated: 1/27/2025  -->
+<GameData>
+	<Types>
+		<!-- 定义亚洲文明及其特性 -->
+		<Row Type="CIVILIZATION_ASIA" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_CIVILIZATION_ASIA_HARMONY" Kind="KIND_TRAIT"/>
+		
+		<Row Type="TRAIT_DISTRICT_ASIAN_ACADEMIC_CENTER" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_DISTRICT_ASIAN_CULTURAL_CENTER" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_DISTRICT_ASIA_FINANCIAL_CENTER" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_ASIA"
+			 Name="LOC_CIVILIZATION_ASIA_NAME"
+			 Description="LOC_CIVILIZATION_ASIA_DESCRIPTION"
+			 Adjective="LOC_CIVILIZATION_ASIA_ADJECTIVE"
+			 StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV"
+			 RandomCityNameDepth="20"
+			 Ethnicity="ETHNICITY_ASIAN"/>
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<!-- 绑定亚洲文明与领袖 -->
+		<Row CivilizationType="CIVILIZATION_ASIA" LeaderType="LEADER_ERQ" CapitalName="LOC_CITY_NAME_BEIJING"/>
+	</CivilizationLeaders>
+
+	<Traits>
+		<!-- 文明特性 -->
+		<Row TraitType="TRAIT_CIVILIZATION_ASIA_HARMONY"
+		     Name="LOC_TRAIT_CIVILIZATION_ABILITY_NAME"
+		     Description="LOC_TRAIT_CIVILIZATION_ABILITY_DESCRIPTION"/>
+		
+		<!-- 特色区域特性 -->
+		<Row TraitType="TRAIT_DISTRICT_ASIAN_ACADEMIC_CENTER"
+		     Name="LOC_DISTRICT_ASIAN_ACADEMIC_CENTER_NAME"
+		     Description="LOC_DISTRICT_ASIANL_ACADEMIC_CENTER_DESCRIPTION"/>
+		
+		<Row TraitType="TRAIT_DISTRICT_ASIAN_CULTURAL_CENTER"
+		     Name="LOC_DISTRICT_ASIANL_CULTURAL_CENTER_NAME"
+		     Description="LOC_DISTRICT_ASIAN_CULTURAL_CENTER_DESCRIPTION"/>
+		
+		<Row TraitType="TRAIT_DISTRICT_ASIA_FINANCIAL_CENTER"
+		     Name="LOC_DISTRICT_ASIA_FINANCIAL_CENTER_NAME"
+		     Description="LOC_DISTRICT_ASIA_FINANCIAL_CENTER_DESCRIPTION"/>
+	</Traits>
+
+	<CivilizationTraits>
+		<!-- 将特性绑定到亚洲文明 -->
+		<Row CivilizationType="CIVILIZATION_ASIA" TraitType="TRAIT_CIVILIZATION_ASIA_HARMONY"/>
+		
+		<Row CivilizationType="CIVILIZATION_ASIA" TraitType="TRAIT_DISTRICT_ASIAN_ACADEMIC_CENTER"/>
+		<Row CivilizationType="CIVILIZATION_ASIA" TraitType="TRAIT_DISTRICT_ASIAN_CULTURAL_CENTER"/>
+		<Row CivilizationType="CIVILIZATION_ASIA" TraitType="TRAIT_DISTRICT_ASIA_FINANCIAL_CENTER"/>
+	</CivilizationTraits>
+	
+	<!-- 绑定文明特性 -->
+	<TraitModifiers>
+		<!-- 文明特性：民族共和 -->
+		<Row TraitType="TRAIT_CIVILIZATION_ASIA_HARMONY" ModifierId="MODIFIER_CIVILIZATION_CITIZEN_GOLD"/>
+		<Row TraitType="TRAIT_CIVILIZATION_ASIA_HARMONY" ModifierId="MODIFIER_CIVILIZATION_TRADE_FOOD"/>
+		<Row TraitType="TRAIT_CIVILIZATION_ASIA_HARMONY" ModifierId="MODIFIER_CIVILIZATION_TRADE_GOLD"/>
+		<Row TraitType="TRAIT_CIVILIZATION_ASIA_HARMONY" ModifierId="MODIFIER_CIVILIZATION_TRADE_FAITH"/>
+	</TraitModifiers>
+	
+	<Modifiers>
+		<!-- 文明特性：民族共和 -->
+		<Row ModifierId="MODIFIER_CIVILIZATION_CITIZEN_GOLD" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITIZEN_YIELD"/>
+		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_FOOD" ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD"/>
+		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_GOLD" ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD"/>
+		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_FAITH" ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD"/>
+	</Modifiers>
+
+	<ModifierArguments>
+		<!-- 文明特性：藏富于民 -->
+		<!-- 每位公民+4金币 -->
+		<Row ModifierId="MODIFIER_CIVILIZATION_CITIZEN_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="MODIFIER_CIVILIZATION_CITIZEN_GOLD" Name="Amount" Value="10"/>
+		<!-- 文明特性：民族共和 -->
+		<!-- 商路提供 +5 粮食 -->
+		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_FOOD" Name="YieldType" Value="YIELD_FOOD"/>
+		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_FOOD" Name="Amount" Value="5"/>
+		<!-- 商路提供 +5 金币 -->
+		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_GOLD" Name="Amount" Value="5"/>
+		<!-- 商路提供 +5 信仰 -->
+		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_FAITH" Name="YieldType" Value="YIELD_FAITH"/>
+		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_FAITH" Name="Amount" Value="5"/>
+	</ModifierArguments>
+	
+	<CityNames>
+		<!-- 亚洲文明的城市名称 -->
+		<Row CivilizationType="CIVILIZATION_ASIA" CityName="LOC_CITY_NAME_BEIJING"/>
+		<Row CivilizationType="CIVILIZATION_ASIA" CityName="LOC_CITY_NAME_SHANGHAI"/>
+		<Row CivilizationType="CIVILIZATION_ASIA" CityName="LOC_CITY_NAME_TOKYO"/>
+		<Row CivilizationType="CIVILIZATION_ASIA" CityName="LOC_CITY_NAME_DELHI"/>
+		<Row CivilizationType="CIVILIZATION_ASIA" CityName="LOC_CITY_NAME_SEOUL"/>
+		<Row CivilizationType="CIVILIZATION_ASIA" CityName="LOC_CITY_NAME_BANGKOK"/>
+		<Row CivilizationType="CIVILIZATION_ASIA" CityName="LOC_CITY_NAME_HANOI"/>
+		<Row CivilizationType="CIVILIZATION_ASIA" CityName="LOC_CITY_NAME_MANILA"/>
+		<Row CivilizationType="CIVILIZATION_ASIA" CityName="LOC_CITY_NAME_KUALA_LUMPUR"/>
+		<Row CivilizationType="CIVILIZATION_ASIA" CityName="LOC_CITY_NAME_SINGAPORE"/>
+	</CityNames>
+
+	<CivilizationCitizenNames>
+		<!-- 亚洲文明的公民名称 -->
+		<Row CivilizationType="CIVILIZATION_ASIA" CitizenName="LOC_CITIZEN_ASIA_1"/>
+		<Row CivilizationType="CIVILIZATION_ASIA" CitizenName="LOC_CITIZEN_ASIA_2"/>
+		<Row CivilizationType="CIVILIZATION_ASIA" CitizenName="LOC_CITIZEN_ASIA_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_ASIA" CitizenName="LOC_CITIZEN_ASIA_4"/>
+	</CivilizationCitizenNames>
+	
+	<StartBiasFeatures>
+		<!-- 起始地形偏好（地形特征） -->
+		<Row CivilizationType="CIVILIZATION_ASIA" FeatureType="FEATURE_FOREST" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_ASIA" FeatureType="FEATURE_JUNGLE" Tier="1"/>
+	</StartBiasFeatures>
+
+	<StartBiasResources>
+		<!-- 起始资源偏好 -->
+		<Row CivilizationType="CIVILIZATION_ASIA" ResourceType="RESOURCE_TOBACCO" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_ASIA" ResourceType="RESOURCE_SPICES" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_ASIA" ResourceType="RESOURCE_INCENSE" Tier="1"/>
+	</StartBiasResources>
+</GameData>

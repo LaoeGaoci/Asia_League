@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    文件名: Buildings.xml
+    描述: 定义亚洲文明特色区域及其特性、修饰符、产出和相关条件
+    作者: LaoeGaoci
+    创建日期: 2025年1月27日
+-->
+
+<GameData>
+	<!-- 定义特色区域类型 -->
+	<Types>
+		<Row Type="DISTRICT_ASIAN_ACADEMIC_CENTER" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_ASIAN_CULTURAL_CENTER" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_ASIA_FINANCIAL_CENTER" Kind="KIND_DISTRICT"/>
+	</Types>
+	
+	<!-- 定义特色区域 -->
+	<Districts>
+		<!-- 亚洲国立学术中心（特色区域） -->
+		<Row DistrictType="DISTRICT_ASIAN_ACADEMIC_CENTER"
+             Name="LOC_DISTRICT_ASIAN_ACADEMIC_CENTER_NAME"
+             Description="LOC_DISTRICT_ASIAN_ACADEMIC_CENTER_DESCRIPTION"
+             PrereqTech="TECH_WRITING"
+             PlunderType="PLUNDER_SCIENCE"
+             PlunderAmount="50"
+             AdvisorType="ADVISOR_TECHNOLOGY"
+             Cost="30"
+             CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH"
+             CostProgressionParam1="40"
+             Maintenance="1"
+             RequiresPlacement="true"
+             RequiresPopulation="true"
+             Aqueduct="false"
+             NoAdjacentCity="false"
+             InternalOnly="false"
+             ZOC="false"
+             CaptureRemovesBuildings="false"
+             CaptureRemovesCityDefenses="false"
+             MilitaryDomain="NO_DOMAIN"
+             CityStrengthModifier="2"/>
+
+		<!-- 亚洲国立文化中心（特色区域） -->
+		<Row DistrictType="DISTRICT_ASIAN_CULTURAL_CENTER"
+             Name="LOC_DISTRICT_ASIAN_CULTURAL_CENTER_NAME"
+             Description="LOC_DISTRICT_ASIAN_CULTURAL_CENTER_DESCRIPTION"
+             PrereqCivic="CIVIC_DRAMA_POETRY"
+             PlunderType="PLUNDER_CULTURE"
+             PlunderAmount="50"
+             AdvisorType="ADVISOR_CULTURE"
+             Cost="30"
+             CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH"
+             CostProgressionParam1="40"
+             Maintenance="1"
+             RequiresPlacement="true"
+             RequiresPopulation="true"
+             Aqueduct="false"
+             NoAdjacentCity="false"
+             InternalOnly="false"
+             ZOC="false"
+             CaptureRemovesBuildings="false"
+             CaptureRemovesCityDefenses="false"
+             MilitaryDomain="NO_DOMAIN"
+             CityStrengthModifier="2"/>
+
+		<!-- 亚洲金融中心（特色区域） -->
+		<Row DistrictType="DISTRICT_ASIA_FINANCIAL_CENTER"
+             Name="LOC_DISTRICT_ASIA_FINANCIAL_CENTER_NAME"
+             Description="LOC_DISTRICT_ASIA_FINANCIAL_CENTER_DESCRIPTION"
+             PrereqTech="TECH_CURRENCY"
+             PlunderType="PLUNDER_GOLD"
+             PlunderAmount="50"
+             AdvisorType="ADVISOR_GENERIC"
+             Cost="30"
+             CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH"
+             CostProgressionParam1="40"
+             Maintenance="1"
+             RequiresPlacement="true"
+             RequiresPopulation="true"
+             Aqueduct="false"
+             NoAdjacentCity="false"
+             InternalOnly="false"
+             ZOC="false"
+             CaptureRemovesBuildings="false"
+             CaptureRemovesCityDefenses="false"
+             MilitaryDomain="NO_DOMAIN"
+             CityStrengthModifier="2"/>
+	</Districts>
+	
+	<!-- 特色区域的大人物点数 -->
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_ASIAN_ACADEMIC_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="2"/>
+		<Row DistrictType="DISTRICT_ASIAN_CULTURAL_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="2"/>
+		<Row DistrictType="DISTRICT_ASIA_FINANCIAL_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="5"/>
+	</District_GreatPersonPoints>
+	
+	<!-- 特色区域的相邻加成 -->
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_CAMPUS" YieldChangeId="ASIAN_ACADEMIC_CENTER_SCIENCE"/>
+		<Row DistrictType="DISTRICT_THEATER" YieldChangeId="ASIAN_CULTURAL_CENTER_CULTURE"/>
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="ASIA_FINANCIAL_CENTER_GOLD"/>
+	</District_Adjacencies>
+
+	<Adjacency_YieldChanges>
+		<Row ID="ASIAN_ACADEMIC_CENTER_SCIENCE" Description="LOC_DISTRICT_ASIAN_ACADEMIC_CENTER_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_ASIAN_ACADEMIC_CENTER"/>
+		<Row ID="ASIAN_CULTURAL_CENTER_CULTURE" Description="LOC_DISTRICT_ASIAN_CULTURAL_CENTER_CULTURE" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_ASIAN_CULTURAL_CENTER"/>
+		<Row ID="ASIA_FINANCIAL_CENTER_GOLD" Description="LOC_DISTRICT_ASIA_FINANCIAL_CENTER_GOLD" YieldType="YIELD_GOLD" YieldChange="10" TilesRequired="1" AdjacentDistrict="DISTRICT_ASIA_FINANCIAL_CENTER"/>
+	</Adjacency_YieldChanges>
+</GameData>

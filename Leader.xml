@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LEADER -->
+<!-- Author: LaoeGaoci -->
+<!-- DateCreated: 1/27/2025 -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_ERQ" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_ERQ_WORLD_HARMONY" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Leaders>
+		<Row LeaderType="LEADER_ERQ"
+		     Name="LOC_LEADER_ERQ_NAME"
+		     InheritFrom="LEADER_DEFAULT"
+		     Sex="Male"/>
+	</Leaders>
+	
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_ERQ" Quote="LOC_DIPLO_FIRST_MEET_LEADER_ERQ_ANY"/>
+	</LeaderQuotes>
+	
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_ERQ_WORLD_HARMONY"
+		     Name="LOC_TRAIT_LEADER_ABILITY_NAME"
+		     Description="LOC_TRAIT_LEADER_ABILITY_DESCRIPTION"/>
+	</Traits>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_ERQ" TraitType="TRAIT_LEADER_ERQ_WORLD_HARMONY"/>
+	</LeaderTraits>
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_ERQ"
+		     ForegroundImage="ICON_LEADER_ERQ"
+		     BackgroundImage="ICON_BACKGROUND_LEADER_ERQ"
+		     PlayDawnOfManAudio="1"
+		     LeaderText="LOC_LOADING_INFO_LEADER_ERQ"/>
+	</LoadingInfo>
+	
+	<DiplomacyInfo>
+		<Row Type="LEADER_ERQ" BackgroundImage="ICON_BACKGROUND_LEADER_ERQ"/>
+	</DiplomacyInfo>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_ERQ_WORLD_HARMONY" ModifierId="TRAIT_CITY_WONDER_PRODUCTION_ERQ"/>
+		<Row TraitType="TRAIT_LEADER_ERQ_WORLD_HARMONY" ModifierId="TRAIT_BUILDER_WONDER_PERCENT_ERQ"/>
+	</TraitModifiers>
+
+
+	<Modifiers>
+		<!-- 提高 10% 奇观生产力 -->
+		<Row ModifierId="TRAIT_CITY_WONDER_PRODUCTION_ERQ" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_WONDER_PRODUCTION"/>
+		<!-- 让建造者可以加速奇观建造 15% -->
+		<Row ModifierId="TRAIT_BUILDER_WONDER_PERCENT_ERQ" ModifierType="MODIFIER_PLAYER_ADJUST_UNIT_WONDER_PERCENT"/>
+	</Modifiers>
+
+	<ModifierArguments>
+		<!-- 提高 10% 奇观生产力 -->
+		<Row ModifierId="TRAIT_CITY_WONDER_PRODUCTION_ERQ" Name="Amount" Value="80"/>
+		<!-- 让建造者可以加速奇观建造 15% -->
+		<Row ModifierId="TRAIT_BUILDER_WONDER_PERCENT_ERQ" Name="UnitType" Value="UNIT_BUILDER"/>
+		<Row ModifierId="TRAIT_BUILDER_WONDER_PERCENT_ERQ" Name="Amount" Value="15"/>
+	</ModifierArguments>
+</GameData>

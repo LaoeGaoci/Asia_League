@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Color  -->
+<!--  Author: LaoeGaoci  -->
+<!--  DateCreated: 26/2/2025 -->
+<GameData>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_ERQ_ZH_1</Type>
+			<Color>0,112,192,255</Color>
+			<!-- #0070C0 -->
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_ERQ_ZH_2</Type>
+			<Color>255,255,255,255</Color>
+			<!-- 白色 -->
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_ERQ_ZH_3</Type>
+			<Color>255,192,0,255</Color>
+			<!-- #FFC000 -->
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_ERQ_ZH_4</Type>
+			<Color>255,127,80,255</Color>
+			<!-- #FF7F50 -->
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_ERQ_ZH_5</Type>
+			<Color>255,0,0,255</Color>
+			<!-- 红色 -->
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_ERQ_ZH</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_ERQ_ZH_1</PrimaryColor>
+			<!-- 主要颜色 #0070C0 -->
+			<SecondaryColor>COLOR_PLAYER_LEADER_ERQ_ZH_2</SecondaryColor>
+			<!-- 次颜色 白色 -->
+			<Alt1PrimaryColor>COLOR_PLAYER_LEADER_ERQ_ZH_3</Alt1PrimaryColor>
+			<!-- 备用色1 主要颜色 #FFC000 -->
+			<Alt1SecondaryColor>COLOR_PLAYER_LEADER_ERQ_ZH_4</Alt1SecondaryColor>
+			<!-- 备用色1 次颜色 #FF7F50 -->
+			<Alt2PrimaryColor>COLOR_PLAYER_LEADER_ERQ_ZH_2</Alt2PrimaryColor>
+			<!-- 备用色2 主要颜色 白色 -->
+			<Alt2SecondaryColor>COLOR_PLAYER_LEADER_ERQ_ZH_5</Alt2SecondaryColor>
+			<!-- 备用色2 次颜色 红色 -->
+		</Row>
+	</PlayerColors>
+</GameData>
