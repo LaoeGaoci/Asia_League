@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ICONS -->
+<!-- Author: LaoeGaoci -->
+<!-- DateCreated: 1/27/2025 -->
+<GameData>
+	<IconTextureAtlases>
+		<!-- 亚洲文明图标 -->
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_ASIA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_ASIA_256.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_ASIA" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_ASIA_200.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_ASIA" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_ASIA_128.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_ASIA" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_ASIA_80.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_ASIA" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_ASIA_64.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_ASIA" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_ASIA_50.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_ASIA" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_ASIA_48.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_ASIA" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_ASIA_44.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_ASIA" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_ASIA_36.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_ASIA" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_ASIA_32.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_ASIA" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_ASIA_30.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_ASIA" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_ASIA_22.dds"/>
+		
+		<!-- 亚洲领袖图标 -->
+		<Row Name="ATLAS_LEADER_LEADER_ERQ" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ERQ_256.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_ERQ" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ERQ_80.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_ERQ" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ERQ_64.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_ERQ" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ERQ_55.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_ERQ" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ERQ_50.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_ERQ" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ERQ_48.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_ERQ" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ERQ_45.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_ERQ" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ERQ_32.dds"/>
+		
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<!-- 文明图标 -->
+		<Row Name="ICON_CIVILIZATION_ASIA" Atlas="ATLAS_CIVILIZATION_CIVILIZATION_ASIA" index="0"/>
+		<!-- 领袖图标 -->
+		<Row Name="ICON_LEADER_ERQ" Atlas="ATLAS_LEADER_LEADER_ERQ" index="0"/>
+		<!-- 亚洲特色建筑图标 -->
+		<Row Name="ICON_DISTRICT_ASIAN_ACADEMIC_CENTER" Atlas="ICON_ATLAS_BUILDINGS" Index="18"/>
+		<Row Name="ICON_DISTRICT_ASIAN_CULTURAL_CENTER" Atlas="ICON_ATLAS_BUILDINGS" Index="27"/>
+		<Row Name="ICON_DISTRICT_ASIA_FINANCIAL_CENTER" Atlas="ICON_ATLAS_BUILDINGS" Index="40"/>
+	</IconDefinitions>
+</GameData>
