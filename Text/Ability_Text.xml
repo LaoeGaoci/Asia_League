@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ability_Text -->
+<!-- Author: LaoeGaoci -->
+<!-- DateCreated: 1/28/2025 -->
+<GameData>
+	<LocalizedText>
+		<!-- 文明能力 -->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ABILITY_NAME" Language="zh_Hans_CN">
+			<Text>天下为公，人民万岁</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ABILITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				藏富于民：每位 [ICON_Citizen] 公民提供+4 [ICON_GOLD] 金币加成。[NEWLINE]民族共和：每条 [ICON_TradeRoute] 商路提供 +5[ICON_FOOD]粮食 +5 [ICON_GOLD] 金币和 +5 [ICON_FAITH] 信仰值。
+			</Text>
+		</Row>
+		<!-- 领袖能力 -->
+		<Row Tag="LOC_TRAIT_LEADER_ABILITY_NAME" Language="zh_Hans_CN">
+			<Text>天下大同</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ABILITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				建造世界奇观时+10% [ICON_PRODUCTION] 生产力，建造者单位可以加速奇观建造15%。
+			</Text>
+		</Row>
+
+		<!-- 建筑文本 -->
+		<Row Tag="LOC_DISTRICT_ASIAN_ACADEMIC_CENTER_NAME" Language="zh_Hans_CN">
+			<Text>亚洲国立学术中心</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_ASIAN_ACADEMIC_CENTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>由“书写”解锁，为相邻区域提供 [ICON_SCIENCE] 科学值以及大科学家点数。</Text>
+		</Row>
+
+		
+		<Row Tag="LOC_DISTRICT_ASIAN_CULTURAL_CENTER_NAME" Language="zh_Hans_CN">
+			<Text>亚洲国立文化中心</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_ASIAN_CULTURAL_CENTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>由“戏剧与诗歌”解锁，为相邻区域提供 [ICON_CULTURE] 文化值以及大艺术家点数。</Text>
+		</Row>
+
+		
+		<Row Tag="LOC_DISTRICT_ASIA_FINANCIAL_CENTER_NAME" Language="zh_Hans_CN">
+			<Text>亚洲金融中心</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_ASIA_FINANCIAL_CENTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>由“货币”解锁，为相邻区域提供 [ICON_GOLD] 金币以及大商人点数。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

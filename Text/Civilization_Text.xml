@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Civilization_init_text -->
+<!-- Author: HP -->
+<!-- DateCreated: 2/26/2025 4:52:03 PM -->
+<GameData>
+	<LocalizedText>
+		<!-- 文明文本 -->
+		<Row Tag="LOC_CIVILIZATION_ASIA_NAME" Language="zh_Hans_CN">
+			<Text>亚洲文明</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ASIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>亚洲</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_Asia_LOCATION" Language="zh_Hans_CN">
+			<Text>亚洲</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_Asia_SIZE" Language="zh_Hans_CN">
+			<Text>4400万平方公里（约占地球陆地面积的30%）</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_Asia_POPULATION" Language="zh_Hans_CN">
+			<Text>46 亿（2023年）</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_Asia_CAPITAL" Language="zh_Hans_CN">
+			<Text>北京</Text>
+		</Row>
+		
+		<!-- 领袖文本 -->
+		<Row Tag="LOC_LEADER_ERQ_NAME" Language="zh_Hans_CN">
+			<Text>ERQ</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_ERQ" Language="zh_Hans_CN">
+			<Text>欢迎来到亚洲联盟，这里有着悠久的历史，多样性的文化和丰富的资源。利用您的智慧和领导力，与亚洲人民一起共创亚洲的荣耀。</Text>
+		</Row>
+
+		<!-- 公民名称本地化 -->
+		<Row Tag="LOC_CITIZEN_ASIA_1" Language="zh_Hans_CN">
+			<Text>李明博</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ASIA_2" Language="zh_Hans_CN">
+			<Text>金智秀</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ASIA_3" Language="zh_Hans_CN">
+			<Text>美智子</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ASIA_4" Language="zh_Hans_CN">
+			<Text>旭日干</Text>
+		</Row>
+
+		<!-- 城市名称本地化 -->
+		<Row Tag="LOC_CITY_NAME_KUALA_LUMPUR" Language="zh_Hans_CN">
+			<Text>吉隆坡</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

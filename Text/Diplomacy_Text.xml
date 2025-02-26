@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Diplomacy_Text -->
+<!-- Author: HP -->
+<!-- DateCreated: 2/26/2025 4:47:42 PM -->
+<GameData>
+	<LocalizedText>
+		<!-- 外交对话文本 -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ERQ_ANY" Language="zh_Hans_CN">
+			<Text>合作共赢，求同存异。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ERQ_ANY" Language="zh_Hans_CN">
+			<Text>抱歉，请联系相关部门</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_ERQ_ANY" Language="zh_Hans_CN">
+			<Text>欢迎来到亚洲，让我们共建共和盛世。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ERQ_ANY" Language="zh_Hans_CN">
+			<Text>你要破坏这宝贵的同盟！</Text>
+		</Row>
+
+		<!-- 其他类别对话文本 -->
+		<!-- 例如领导者个性化语句 -->
+		<Row Tag="LOC_LEADER_GREETING_ERQ_ANY" Language="zh_Hans_CN">
+			<Text>尊敬的领导，我很高兴见到您。</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_DECLARATION_ERQ_ANY" Language="zh_Hans_CN">
+			<Text>我宣战，你们的挑战将不会得逞！</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
