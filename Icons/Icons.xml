@@ -27,7 +27,7 @@
 		<Row Name="ATLAS_LEADER_LEADER_ERQ" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ERQ_48.dds"/>
 		<Row Name="ATLAS_LEADER_LEADER_ERQ" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ERQ_45.dds"/>
 		<Row Name="ATLAS_LEADER_LEADER_ERQ" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ERQ_32.dds"/>
-		
+
 	</IconTextureAtlases>
 
 	<IconDefinitions>

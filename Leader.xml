@@ -32,8 +32,9 @@
 	<LoadingInfo>
 		<Row LeaderType="LEADER_ERQ"
 		     ForegroundImage="ICON_LEADER_ERQ"
-		     BackgroundImage="ICON_BACKGROUND_LEADER_ERQ"
+		     BackgroundImage="ICON_BACKGROUND_LOADING.dds"
 		     PlayDawnOfManAudio="1"
+			 EraText=""
 		     LeaderText="LOC_LOADING_INFO_LEADER_ERQ"/>
 	</LoadingInfo>
 	

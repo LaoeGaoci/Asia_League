@@ -10,7 +10,7 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_ABILITY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				藏富于民：每位 [ICON_Citizen] 公民提供+4 [ICON_GOLD] 金币加成。[NEWLINE]民族共和：每条 [ICON_TradeRoute] 商路提供 +5[ICON_FOOD]粮食 +5 [ICON_GOLD] 金币和 +5 [ICON_FAITH] 信仰值。
+				每条 [ICON_TradeRoute] 商路提供 +5[ICON_FOOD]粮食 +5 [ICON_GOLD] 金币和 +5 [ICON_FAITH] 信仰值。
 			</Text>
 		</Row>
 		<!-- 领袖能力 -->
@@ -30,16 +30,12 @@
 		<Row Tag="LOC_DISTRICT_ASIAN_ACADEMIC_CENTER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>由“书写”解锁，为相邻区域提供 [ICON_SCIENCE] 科学值以及大科学家点数。</Text>
 		</Row>
-
-		
 		<Row Tag="LOC_DISTRICT_ASIAN_CULTURAL_CENTER_NAME" Language="zh_Hans_CN">
 			<Text>亚洲国立文化中心</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_ASIAN_CULTURAL_CENTER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>由“戏剧与诗歌”解锁，为相邻区域提供 [ICON_CULTURE] 文化值以及大艺术家点数。</Text>
 		</Row>
-
-		
 		<Row Tag="LOC_DISTRICT_ASIA_FINANCIAL_CENTER_NAME" Language="zh_Hans_CN">
 			<Text>亚洲金融中心</Text>
 		</Row>

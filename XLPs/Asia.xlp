@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="Asia"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ERQ_256"/>
+			<m_ObjectName text="ICON_LEADER_ERQ_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ERQ_32"/>
+			<m_ObjectName text="ICON_LEADER_ERQ_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ERQ_45"/>
+			<m_ObjectName text="ICON_LEADER_ERQ_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ERQ_48"/>
+			<m_ObjectName text="ICON_LEADER_ERQ_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ERQ_50"/>
+			<m_ObjectName text="ICON_LEADER_ERQ_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ERQ_55"/>
+			<m_ObjectName text="ICON_LEADER_ERQ_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ERQ_64"/>
+			<m_ObjectName text="ICON_LEADER_ERQ_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ERQ_80"/>
+			<m_ObjectName text="ICON_LEADER_ERQ_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_ASIA_128"/>
+			<m_ObjectName text="ICON_CIVILIZATION_ASIA_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_ASIA_200"/>
+			<m_ObjectName text="ICON_CIVILIZATION_ASIA_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_ASIA_22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_ASIA_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_ASIA_256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_ASIA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_ASIA_30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_ASIA_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_ASIA_32"/>
+			<m_ObjectName text="ICON_CIVILIZATION_ASIA_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_ASIA_36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_ASIA_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_ASIA_44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_ASIA_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_ASIA_48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_ASIA_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_ASIA_50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_ASIA_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_ASIA_64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_ASIA_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_ASIA_80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_ASIA_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BACKGROUND_LEADER_ERQ"/>
+			<m_ObjectName text="ICON_BACKGROUND_LEADER_ERQ"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PORTRAIT_BACKGROUND"/>
+			<m_ObjectName text="ICON_PORTRAIT_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BACKGROUND"/>
+			<m_ObjectName text="ICON_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BACKGROUND_LOADING"/>
+			<m_ObjectName text="ICON_BACKGROUND_LOADING"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+
