@@ -19,13 +19,16 @@
     <AssemblyName>Asia_League</AssemblyName>
     <RootNamespace>Asia_League</RootNamespace>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="config"><File>config.xml</File></UpdateDatabase><UpdateText id="text"><File>Text/Ability_Text.xml</File><File>Text/Civilization_Text.xml</File><File>Text/Diplomacy_Text.xml</File></UpdateText><UpdateIcons id="icons"><File>Icons/Icons.xml</File></UpdateIcons><UpdateColors id="color"><File>Color.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Asia"><File>Asia.xml</File><File>District.xml</File><File>Leader.xml</File></UpdateDatabase><UpdateColors id="color"><File>Color.xml</File></UpdateColors><UpdateText id="text"><File>Text/Ability_Text.xml</File><File>Text/Civilization_Text.xml</File><File>Text/Diplomacy_Text.xml</File></UpdateText><UpdateIcons id="Icons"><File>Icons/Icons.xml</File></UpdateIcons><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Asia"><File>Asia.xml</File><File>District.xml</File><File>Leader.xml</File><File>moment.xml</File></UpdateDatabase><UpdateColors id="color"><File>Color.xml</File></UpdateColors><UpdateText id="text"><File>Text/Ability_Text.xml</File><File>Text/Civilization_Text.xml</File><File>Text/Diplomacy_Text.xml</File><File>Text/Moment_Text.xml</File></UpdateText><UpdateIcons id="Icons"><File>Icons/Icons.xml</File></UpdateIcons><UpdateArt id="Art"><File>(Mod Art Dependency File)</File><File>ArtDefs/District.artdef</File></UpdateArt></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="ArtDefs\District.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Landmarks.artdef">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Asia.xml">
@@ -49,6 +52,9 @@
     <Content Include="Asia_League.Art.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="moment.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\ICON_BACKGROUND.dds">
       <SubType>Content</SubType>
     </Content>
@@ -62,6 +68,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Text\Ability_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Moment_Text.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\Asia.xlp">

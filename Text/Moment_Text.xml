@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Moment_Text -->
+<!-- Author: LaoeGaoci -->
+<!-- DateCreated: 2/28/2025 10:26:14 PM -->
+<GameData>
+	<LocalizedText>
+		<!-- 学术中心 -->
+		<Row Tag="LOC_MOMENT_ASIAN_ACADEMIC_CENTER_BUILT_NAME" Language="zh_Hans_CN" Text="建造亚洲国立学术中心"/>
+		<Row Tag="LOC_MOMENT_ASIAN_ACADEMIC_CENTER_BUILT_DESCRIPTION" Language="zh_Hans_CN" Text="你的文明首次建造了亚洲国立学术中心，这标志着科学研究的进步。" />
+
+		<!-- 文化中心 -->
+		<Row Tag="LOC_MOMENT_ASIAN_CULTURAL_CENTER_BUILT_NAME" Language="zh_Hans_CN" Text="建造亚洲国立文化中心"/>
+		<Row Tag="LOC_MOMENT_ASIAN_CULTURAL_CENTER_BUILT_DESCRIPTION" Language="zh_Hans_CN" Text="你的文明建造了亚洲国立文化中心，为艺术与戏剧提供了新的舞台。" />
+
+		<!-- 金融中心 -->
+		<Row Tag="LOC_MOMENT_ASIA_FINANCIAL_CENTER_BUILT_NAME" Language="zh_Hans_CN" Text="建造亚洲金融中心"/>
+		<Row Tag="LOC_MOMENT_ASIA_FINANCIAL_CENTER_BUILT_DESCRIPTION" Language="zh_Hans_CN" Text="亚洲金融中心竣工，标志着商业经济的崛起。" />
+	</LocalizedText>
+</GameData>

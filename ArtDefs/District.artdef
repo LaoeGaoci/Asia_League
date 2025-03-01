@@ -15,11 +15,11 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BoolValue">
-							<m_bValue>false</m_bValue>
+							<m_bValue>true</m_bValue>
 							<m_ParamName text="CanAffectBuildings"/>
 						</Element>
 						<Element class="AssetObjects..BoolValue">
-							<m_bValue>false</m_bValue>
+							<m_bValue>true</m_bValue>
 							<m_ParamName text="CanConnectToCanals"/>
 						</Element>
 					</m_Values>
@@ -42,7 +42,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="Asia_League_Untitled88DD5736A29B6D29_Landmark"/>
+							<m_Name text="Asia_League_District_Landmark_ASIAN_ACADEMIC_CENTER"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
@@ -70,11 +70,11 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BoolValue">
-							<m_bValue>false</m_bValue>
+							<m_bValue>true</m_bValue>
 							<m_ParamName text="CanAffectBuildings"/>
 						</Element>
 						<Element class="AssetObjects..BoolValue">
-							<m_bValue>false</m_bValue>
+							<m_bValue>true</m_bValue>
 							<m_ParamName text="CanConnectToCanals"/>
 						</Element>
 					</m_Values>
@@ -97,7 +97,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="Asia_League_District_Landmark"/>
+							<m_Name text="Asia_League_District_Landmark_ASIAN_CULTURAL_CENTER"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
@@ -125,11 +125,11 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BoolValue">
-							<m_bValue>false</m_bValue>
+							<m_bValue>true</m_bValue>
 							<m_ParamName text="CanAffectBuildings"/>
 						</Element>
 						<Element class="AssetObjects..BoolValue">
-							<m_bValue>false</m_bValue>
+							<m_bValue>true</m_bValue>
 							<m_ParamName text="CanConnectToCanals"/>
 						</Element>
 					</m_Values>
@@ -152,7 +152,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="Asia_League_District_Landmark"/>
+							<m_Name text="Asia_League_District_Landmark_ASIA_FINANCIAL_CENTER"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>

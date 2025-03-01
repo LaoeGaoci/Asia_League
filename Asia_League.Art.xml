@@ -29,6 +29,7 @@
 		<Element>
 			<consumerName text="Landmarks"/>
 			<relativeArtDefPaths>
+				<Element text="Landmarks.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="CityBuildings"/>

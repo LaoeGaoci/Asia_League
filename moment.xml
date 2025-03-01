@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- moment -->
+<!-- Author: LaoeGaoci -->
+<!-- DateCreated: 2/28/2025 10:23:37 PM -->
+<GameData>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_ASIAN_ACADEMIC_CENTER" Texture="ICON_CIVILIZATION_ASIA"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_ASIAN_CULTURAL_CENTER" Texture="ICON_CIVILIZATION_ASIA"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_ASIA_FINANCIAL_CENTER" Texture="ICON_CIVILIZATION_ASIA"/>
+	</MomentIllustrations>
+</GameData>

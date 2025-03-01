@@ -50,5 +50,8 @@
 		<Row Tag="LOC_CITY_NAME_KUALA_LUMPUR" Language="zh_Hans_CN">
 			<Text>吉隆坡</Text>
 		</Row>
+		<Row Tag="LOC_CITY_NAME_HANOI" Language="zh_Hans_CN">
+			<Text>河内</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

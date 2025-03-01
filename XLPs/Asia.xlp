@@ -94,16 +94,16 @@
 			<m_ObjectName text="ICON_BACKGROUND_LEADER_ERQ"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_PORTRAIT_BACKGROUND"/>
-			<m_ObjectName text="ICON_PORTRAIT_BACKGROUND"/>
-		</Element>
-		<Element>
 			<m_EntryID text="ICON_BACKGROUND"/>
 			<m_ObjectName text="ICON_BACKGROUND"/>
 		</Element>
 		<Element>
 			<m_EntryID text="ICON_BACKGROUND_LOADING"/>
 			<m_ObjectName text="ICON_BACKGROUND_LOADING"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PORTRAIT_BACKGROUND"/>
+			<m_ObjectName text="ICON_PORTRAIT_BACKGROUND"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
