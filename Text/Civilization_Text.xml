@@ -53,5 +53,8 @@
 		<Row Tag="LOC_CITY_NAME_HANOI" Language="zh_Hans_CN">
 			<Text>河内</Text>
 		</Row>
+		<Row Tag="LOC_CITY_NAME_BANGKOK" Language="zh_Hans_CN">
+			<Text>曼谷</Text>
+		</Row>
 	</LocalizedText>
 </GameData>
