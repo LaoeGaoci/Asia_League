@@ -39,7 +39,7 @@
 	</LoadingInfo>
 	
 	<DiplomacyInfo>
-		<Row Type="LEADER_ERQ" BackgroundImage="ICON_BACKGROUND_LEADER_ERQ"/>
+		<Row Type="LEADER_ERQ" BackgroundImage="DIPLOMACY_BACKGROUND"/>
 	</DiplomacyInfo>
 
 	<TraitModifiers>

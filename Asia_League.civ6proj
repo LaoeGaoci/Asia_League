@@ -46,7 +46,7 @@
     <Content Include="Leader.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Mod.Art.xml">
+    <Content Include="Asia_League.Art.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="moment.xml">

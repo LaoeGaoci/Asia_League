@@ -105,6 +105,10 @@
 			<m_EntryID text="ICON_PORTRAIT_BACKGROUND"/>
 			<m_ObjectName text="ICON_PORTRAIT_BACKGROUND"/>
 		</Element>
+		<Element>
+			<m_EntryID text="DIPLOMACY_BACKGROUND"/>
+			<m_ObjectName text="DIPLOMACY_BACKGROUND"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
