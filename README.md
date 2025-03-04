@@ -4,6 +4,8 @@
 
 ![文明图标](./Image/ITRODUCTION.png)
 
+![](C:\Users\HP\Documents\Firaxis%20ModBuddy\Civilization%20VI\Asia_League\Asia_League\Image\DIPLOMACY.png)
+
 ## 项目结构
 
 ### ArtDefs
