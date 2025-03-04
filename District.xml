@@ -115,9 +115,9 @@
 	
 	<!-- 特色区域的大人物点数 -->
 	<District_GreatPersonPoints>
-		<Row DistrictType="DISTRICT_ASIAN_ACADEMIC_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="2"/>
-		<Row DistrictType="DISTRICT_ASIAN_CULTURAL_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="2"/>
-		<Row DistrictType="DISTRICT_ASIA_FINANCIAL_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
+		<Row DistrictType="DISTRICT_ASIAN_ACADEMIC_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_ASIAN_CULTURAL_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_ASIA_FINANCIAL_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
 	</District_GreatPersonPoints>
 	
 	<!-- 特色区域的相邻加成 -->

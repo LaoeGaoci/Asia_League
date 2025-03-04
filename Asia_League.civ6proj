@@ -2,15 +2,14 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Asia_League</Name>
+    <Name>亚洲联盟-让我们共建辉煌</Name>
     <Guid>760e8e32-70d7-4396-a0d7-5fbfc17c2d0e</Guid>
     <ProjectGuid>cccb19d6-6edf-4c8e-9e6d-003e5ec08cad</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>This is a brief description of the mod.</Teaser>
-    <Description>This is a brief description of the mod.</Description>
+    <Teaser>文明VI亚洲文明模组</Teaser>
+    <Description>包含一个领袖(ERQ)，三个特色区域（亚洲文化中心、亚洲国立学术中心和亚洲金融中心）。</Description>
     <Authors>LaoeGaoci</Authors>
-    <SpecialThanks>
-    </SpecialThanks>
+    <SpecialThanks>LaoeGaoci</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
