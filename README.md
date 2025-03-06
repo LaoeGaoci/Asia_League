@@ -1,10 +1,11 @@
 ﻿# 亚洲文明
 
 文明VI亚洲文明模组，包含一个领袖(ERQ)，三个特色区域（亚洲文化中心、亚洲国立学术中心和亚洲金融中心）。
+[配套教程](https://github.com/LaoeGaoci/CivVI_Mentor)
 
 ![文明图标](./Image/ITRODUCTION.png)
 
-![](C:\Users\HP\Documents\Firaxis%20ModBuddy\Civilization%20VI\Asia_League\Asia_League\Image\DIPLOMACY.png)
+![外交界面](./Image/DIPLOMACY.png)
 
 ## 项目结构
 
