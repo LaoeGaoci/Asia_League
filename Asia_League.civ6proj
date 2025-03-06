@@ -27,6 +27,9 @@
     <Content Include="ArtDefs\District.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ArtDefs\FallbackLeader.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Asia.xml">
       <SubType>Content</SubType>
     </Content>

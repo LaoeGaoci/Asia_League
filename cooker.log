@@ -7,7 +7,7 @@ Could not load digest key: ''.  Using mod key to sign BLP.
 Starting 'LeaderFallbacks'
 Load finished for: 'LeaderFallbacks' in 0.001 seconds
 Cook finished for: 'LeaderFallbacks' in 0.000 seconds
-Disk write finished for: 'LeaderFallbacks' in 0.061 seconds
+Disk write finished for: 'LeaderFallbacks' in 0.049 seconds
 Cleanup finished for: 'LeaderFallbacks' in 0.000 seconds
 XLP cook completed with success.
-Cook completed in 0.069 seconds
+Cook completed in 0.058 seconds
