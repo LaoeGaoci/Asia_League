@@ -6,6 +6,7 @@
 	<Types>
 		<Row Type="LEADER_ERQ" Kind="KIND_LEADER"/>
 		<Row Type="TRAIT_LEADER_ERQ_WORLD_HARMONY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_ERQ" Kind="KIND_TRAIT"/>
 	</Types>
 
 	<Leaders>
@@ -14,21 +15,21 @@
 		     InheritFrom="LEADER_DEFAULT"
 		     Sex="Male"/>
 	</Leaders>
-	
+	<!-- 领袖名言 -->
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_ERQ" Quote="LOC_DIPLO_FIRST_MEET_LEADER_ERQ_ANY"/>
 	</LeaderQuotes>
 	
 	<Traits>
-		<Row TraitType="TRAIT_LEADER_ERQ_WORLD_HARMONY"
-		     Name="LOC_TRAIT_LEADER_ABILITY_NAME"
-		     Description="LOC_TRAIT_LEADER_ABILITY_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_ERQ_WORLD_HARMONY" Name="LOC_TRAIT_LEADER_ABILITY_NAME" Description="LOC_TRAIT_LEADER_ABILITY_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_ERQ"/>
 	</Traits>
 
 	<LeaderTraits>
 		<Row LeaderType="LEADER_ERQ" TraitType="TRAIT_LEADER_ERQ_WORLD_HARMONY"/>
 	</LeaderTraits>
 
+	<!-- 加载界面 -->
 	<LoadingInfo>
 		<Row LeaderType="LEADER_ERQ"
 		     ForegroundImage="ICON_LEADER_ERQ"
@@ -38,13 +39,40 @@
 		     LeaderText="LOC_LOADING_INFO_LEADER_ERQ"/>
 	</LoadingInfo>
 	
+	<!-- 外交界面 -->
 	<DiplomacyInfo>
 		<Row Type="LEADER_ERQ" BackgroundImage="DIPLOMACY_BACKGROUND"/>
 	</DiplomacyInfo>
 
+
+	<!-- 议程设置 -->
+	<Agendas>
+		<Row AgendaType="AGENDA_ERQ" Name="LOC_AGENDA_ERQ_NAME" Description="LOC_AGENDA_ERQ_DESCRIPTION"/>
+	</Agendas>
+
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_ERQ" TraitType="TRAIT_AGENDA_ERQ"/>
+	</AgendaTraits>
+
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_ERQ" AgendaType="AGENDA_ERQ"/>
+	</HistoricalAgendas>
+
+
+	<!-- 特性设置 -->
 	<TraitModifiers>
 		<Row TraitType="TRAIT_LEADER_ERQ_WORLD_HARMONY" ModifierId="TRAIT_CITY_WONDER_PRODUCTION_ERQ"/>
 		<Row TraitType="TRAIT_LEADER_ERQ_WORLD_HARMONY" ModifierId="TRAIT_BUILDER_WONDER_PERCENT_ERQ"/>
+
+		<!-- 议程 -->
+		<Row>
+			<TraitType>TRAIT_AGENDA_ERQ</TraitType>
+			<ModifierId>AGENDA_MODIFIER_ERQ_TO_BELLICOSE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_ERQ</TraitType>
+			<ModifierId>AGENDA_MODIFIER_ERQ_TO_PEACE</ModifierId>
+		</Row>	
 	</TraitModifiers>
 
 
@@ -53,6 +81,20 @@
 		<Row ModifierId="TRAIT_CITY_WONDER_PRODUCTION_ERQ" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_WONDER_PRODUCTION"/>
 		<!-- 让建造者可以加速奇观建造 15% -->
 		<Row ModifierId="TRAIT_BUILDER_WONDER_PERCENT_ERQ" ModifierType="MODIFIER_PLAYER_ADJUST_UNIT_WONDER_PERCENT"/>
+
+		<!-- 喜欢和平玩家 -->
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_ERQ_TO_PEACE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_PEACEFUL</SubjectRequirementSetId>
+		</Row>
+
+		<!-- 讨厌好战玩家 -->
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_ERQ_TO_BELLICOSE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_BELLICOSE</SubjectRequirementSetId>
+		</Row>
 	</Modifiers>
 
 	<ModifierArguments>
@@ -61,5 +103,68 @@
 		<!-- 让建造者可以加速奇观建造 15% -->
 		<Row ModifierId="TRAIT_BUILDER_WONDER_PERCENT_ERQ" Name="UnitType" Value="UNIT_BUILDER"/>
 		<Row ModifierId="TRAIT_BUILDER_WONDER_PERCENT_ERQ" Name="Amount" Value="15"/>
+
+		<!-- 认可和平玩家 -->
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_ERQ_TO_PEACE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>7</Value>
+			<!-- 提高外交关系值（+7，代表喜欢） -->
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_ERQ_TO_PEACE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_LEADER_ERQ_REASON_PEACE</Value>
+		</Row>
+
+		<!-- 讨厌好战玩家 -->
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_ERQ_TO_BELLICOSE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-7</Value>
+			<!-- 降低外交关系值（-7，代表不喜欢） -->
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_ERQ_TO_BELLICOSE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_LEADER_ERQ_REASON_BELLICOSE</Value>
+		</Row>
 	</ModifierArguments>
+	
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_IS_PEACEFUL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_BELLICOSE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_IS_PEACEFUL</RequirementSetId>
+			<RequirementId>PLAYER_IS_PEACE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_BELLICOSE</RequirementSetId>
+			<RequirementId>PLAYER_IS_NOT_PEACE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row>
+			<RequirementId>PLAYER_IS_PEACE</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_IS_AT_PEACE_WITH_ALL_MAJORS</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_IS_NOT_PEACE</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_IS_AT_WAR</RequirementType>
+		</Row>
+	</Requirements>
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_MODIFIER_ERQ_TO_PEACE" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_MODIFIER_ERQ_TO_BELLICOSE" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+
 </GameData>

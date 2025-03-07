@@ -4,6 +4,15 @@
 <!-- DateCreated: 2/26/2025 4:47:42 PM -->
 <GameData>
 	<LocalizedText>
+
+		<!-- 领袖议程 -->
+		<Row Tag="LOC_AGENDA_ERQ_NAME" Language="zh_Hans_CN">
+			<Text>求同存异</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_ERQ_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>不喜欢好战的文明</Text>
+		</Row>
+		
 		<!-- 外交对话文本 -->
 		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ERQ_ANY" Language="zh_Hans_CN">
 			<Text>合作共赢，求同存异。</Text>
@@ -18,13 +27,12 @@
 			<Text>你要破坏这宝贵的同盟！</Text>
 		</Row>
 
-		<!-- 其他类别对话文本 -->
-		<!-- 例如领导者个性化语句 -->
-		<Row Tag="LOC_LEADER_GREETING_ERQ_ANY" Language="zh_Hans_CN">
-			<Text>尊敬的领导，我很高兴见到您。</Text>
+		<!-- 议程 -->
+		<Row Tag="LOC_LEADER_ERQ_REASON_PEACE" Language="zh_Hans_CN">
+			<Text>对你和平共赢的理念表示我的敬意</Text>
 		</Row>
-		<Row Tag="LOC_LEADER_DECLARATION_ERQ_ANY" Language="zh_Hans_CN">
-			<Text>我宣战，你们的挑战将不会得逞！</Text>
+		<Row Tag="LOC_LEADER_ERQ_REASON_BELLICOSE" Language="zh_Hans_CN">
+			<Text>你终将自食其果</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

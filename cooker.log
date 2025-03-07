@@ -5,9 +5,9 @@ C:\Users\HP\Documents\Firaxis ModBuddy\Civilization VI\Asia_League\Asia_League\X
 Opened output file: C:\Users\HP\Documents\My Games\Sid Meier's Civilization VI\Mods\Asia_League\Platforms\MacOS\BLPs/LeaderFallbacks.blp    For XLP: 'C:\Users\HP\Documents\Firaxis ModBuddy\Civilization VI\Asia_League\Asia_League\XLPs\LeaderFallbacks.xlp'
 Could not load digest key: ''.  Using mod key to sign BLP.
 Starting 'LeaderFallbacks'
-Load finished for: 'LeaderFallbacks' in 0.001 seconds
+Load finished for: 'LeaderFallbacks' in 0.003 seconds
 Cook finished for: 'LeaderFallbacks' in 0.000 seconds
-Disk write finished for: 'LeaderFallbacks' in 0.049 seconds
+Disk write finished for: 'LeaderFallbacks' in 0.076 seconds
 Cleanup finished for: 'LeaderFallbacks' in 0.000 seconds
 XLP cook completed with success.
-Cook completed in 0.058 seconds
+Cook completed in 0.092 seconds

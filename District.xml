@@ -49,12 +49,12 @@
              PlunderType="PLUNDER_SCIENCE"
              PlunderAmount="50"
              AdvisorType="ADVISOR_TECHNOLOGY"
-             Cost="30"
+             Cost="20"
              CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH"
              CostProgressionParam1="40"
              Maintenance="1"
              RequiresPlacement="true"
-             RequiresPopulation="true"
+             RequiresPopulation="false"
              Aqueduct="false"
              NoAdjacentCity="false"
              InternalOnly="false"
@@ -62,7 +62,7 @@
              CaptureRemovesBuildings="false"
              CaptureRemovesCityDefenses="false"
              MilitaryDomain="NO_DOMAIN"
-             CityStrengthModifier="2"/>
+             CityStrengthModifier="5"/>
 
 		<!-- 亚洲国立文化中心（特色区域） -->
 		<Row DistrictType="DISTRICT_ASIAN_CULTURAL_CENTER"
@@ -73,12 +73,12 @@
              PlunderType="PLUNDER_CULTURE"
              PlunderAmount="50"
              AdvisorType="ADVISOR_CULTURE"
-             Cost="30"
+             Cost="20"
              CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH"
              CostProgressionParam1="40"
              Maintenance="1"
              RequiresPlacement="true"
-             RequiresPopulation="true"
+             RequiresPopulation="false"
              Aqueduct="false"
              NoAdjacentCity="false"
              InternalOnly="false"
@@ -86,7 +86,7 @@
              CaptureRemovesBuildings="false"
              CaptureRemovesCityDefenses="false"
              MilitaryDomain="NO_DOMAIN"
-             CityStrengthModifier="2"/>
+             CityStrengthModifier="5"/>
 
 		<!-- 亚洲金融中心（特色区域） -->
 		<Row DistrictType="DISTRICT_ASIA_FINANCIAL_CENTER"
@@ -97,12 +97,12 @@
              PlunderType="PLUNDER_GOLD"
              PlunderAmount="50"
              AdvisorType="ADVISOR_GENERIC"
-             Cost="30"
+             Cost="20"
              CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH"
              CostProgressionParam1="40"
              Maintenance="1"
              RequiresPlacement="true"
-             RequiresPopulation="true"
+             RequiresPopulation="false"
              Aqueduct="false"
              NoAdjacentCity="false"
              InternalOnly="false"
@@ -110,14 +110,14 @@
              CaptureRemovesBuildings="false"
              CaptureRemovesCityDefenses="false"
              MilitaryDomain="NO_DOMAIN"
-             CityStrengthModifier="2"/>
+             CityStrengthModifier="5"/>
 	</Districts>
 	
 	<!-- 特色区域的大人物点数 -->
 	<District_GreatPersonPoints>
-		<Row DistrictType="DISTRICT_ASIAN_ACADEMIC_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
-		<Row DistrictType="DISTRICT_ASIAN_CULTURAL_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="1"/>
-		<Row DistrictType="DISTRICT_ASIA_FINANCIAL_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_ASIAN_ACADEMIC_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="3"/>
+		<Row DistrictType="DISTRICT_ASIAN_CULTURAL_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="3"/>
+		<Row DistrictType="DISTRICT_ASIA_FINANCIAL_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="3"/>
 	</District_GreatPersonPoints>
 	
 	<!-- 特色区域的相邻加成 -->
@@ -129,7 +129,7 @@
 
 	<Adjacency_YieldChanges>
 		<Row ID="ASIAN_ACADEMIC_CENTER_SCIENCE" Description="LOC_DISTRICT_ASIAN_ACADEMIC_CENTER_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_ASIAN_ACADEMIC_CENTER"/>
-		<Row ID="ASIAN_CULTURAL_CENTER_CULTURE" Description="LOC_DISTRICT_ASIAN_CULTURAL_CENTER_CULTURE" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_ASIAN_CULTURAL_CENTER"/>
+		<Row ID="ASIAN_CULTURAL_CENTER_CULTURE" Description="LOC_DISTRICT_ASIAN_CULTURAL_CENTER_CULTURE" YieldType="YIELD_CULTURE" YieldChange="4" TilesRequired="1" AdjacentDistrict="DISTRICT_ASIAN_CULTURAL_CENTER"/>
 		<Row ID="ASIA_FINANCIAL_CENTER_GOLD" Description="LOC_DISTRICT_ASIA_FINANCIAL_CENTER_GOLD" YieldType="YIELD_GOLD" YieldChange="5" TilesRequired="1" AdjacentDistrict="DISTRICT_ASIA_FINANCIAL_CENTER"/>
 	</Adjacency_YieldChanges>
 </GameData>

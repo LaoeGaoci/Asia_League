@@ -10,7 +10,7 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_ABILITY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				每条 [ICON_TradeRoute] 商路提供 +5[ICON_FOOD]粮食 +5 [ICON_GOLD] 金币和 +5 [ICON_FAITH] 信仰值。
+				每条 [ICON_TradeRoute] 商路提供 +10[ICON_FOOD]粮食， +5 [ICON_GOLD] 金币， +10 [ICON_FAITH] 信仰值和 +5 [ICON_PRODUCTION] 生产力。
 			</Text>
 		</Row>
 		<!-- 领袖能力 -->

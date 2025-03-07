@@ -41,25 +41,30 @@
 		<Row TraitType="TRAIT_CIVILIZATION_ASIA_HARMONY" ModifierId="MODIFIER_CIVILIZATION_TRADE_FOOD"/>
 		<Row TraitType="TRAIT_CIVILIZATION_ASIA_HARMONY" ModifierId="MODIFIER_CIVILIZATION_TRADE_GOLD"/>
 		<Row TraitType="TRAIT_CIVILIZATION_ASIA_HARMONY" ModifierId="MODIFIER_CIVILIZATION_TRADE_FAITH"/>
+		<Row TraitType="TRAIT_CIVILIZATION_ASIA_HARMONY" ModifierId="MODIFIER_CIVILIZATION_TRADE_PRODUCTION"/>
 	</TraitModifiers>
 	
 	<Modifiers>
 		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_FOOD" ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD"/>
 		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_GOLD" ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD"/>
 		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_FAITH" ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD"/>
+		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_PRODUCTION" ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD"/>
 	</Modifiers>
 
 	<ModifierArguments>
-		<!-- 文明特性：民族共和 -->
+		<!-- 文明特性：天下为公 -->
 		<!-- 商路提供 +5 粮食 -->
 		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_FOOD" Name="YieldType" Value="YIELD_FOOD"/>
-		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_FOOD" Name="Amount" Value="5"/>
+		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_FOOD" Name="Amount" Value="10"/>
 		<!-- 商路提供 +5 金币 -->
 		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
 		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_GOLD" Name="Amount" Value="5"/>
 		<!-- 商路提供 +5 信仰 -->
 		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_FAITH" Name="YieldType" Value="YIELD_FAITH"/>
-		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_FAITH" Name="Amount" Value="5"/>
+		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_FAITH" Name="Amount" Value="10"/>
+		<!-- 商路提供 +5 生产力 -->
+		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION"/>
+		<Row ModifierId="MODIFIER_CIVILIZATION_TRADE_PRODUCTION" Name="Amount" Value="5"/>
 	</ModifierArguments>
 	
 	<CityNames>
@@ -84,16 +89,25 @@
 		<Row CivilizationType="CIVILIZATION_ASIA" CitizenName="LOC_CITIZEN_ASIA_4"/>
 	</CivilizationCitizenNames>
 	
+	<StartBiasRivers>
+		<!-- 河流 -->
+		<Row CivilizationType="CIVILIZATION_ASIA" Tier="2"/>
+	</StartBiasRivers>
+	<StartBiasTerrains>
+		<!-- 草原丘陵 -->
+		<Row CivilizationType="CIVILIZATION_ASIA" TerrainType="TERRAIN_PLAINS_HILLS" Tier="1"/>
+	</StartBiasTerrains>
+	
 	<StartBiasFeatures>
 		<!-- 起始地形偏好（地形特征） -->
 		<Row CivilizationType="CIVILIZATION_ASIA" FeatureType="FEATURE_FOREST" Tier="1"/>
-		<Row CivilizationType="CIVILIZATION_ASIA" FeatureType="FEATURE_JUNGLE" Tier="1"/>
 	</StartBiasFeatures>
 
 	<StartBiasResources>
 		<!-- 起始资源偏好 -->
 		<Row CivilizationType="CIVILIZATION_ASIA" ResourceType="RESOURCE_TOBACCO" Tier="1"/>
-		<Row CivilizationType="CIVILIZATION_ASIA" ResourceType="RESOURCE_SPICES" Tier="1"/>
-		<Row CivilizationType="CIVILIZATION_ASIA" ResourceType="RESOURCE_INCENSE" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_ASIA" ResourceType="RESOURCE_SPICES" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_ASIA" ResourceType="RESOURCE_INCENSE" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_ASIA" ResourceType="RESOURCE_STONE" Tier="1"/>
 	</StartBiasResources>
 </GameData>
